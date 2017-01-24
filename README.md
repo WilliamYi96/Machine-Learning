@@ -1,5 +1,5 @@
 # 机器学习理论 
-## [K近邻法]()
+## [K近邻法](./ML Theories/K近邻法.md)
 
 # 经典书籍
 ## 机器学习(Statistical Learning)
