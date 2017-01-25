@@ -43,4 +43,4 @@
 
 第十九章： [谈谈数学模型的重要性](./ML Books/NLP/The Art of Mathematics/数学模型的重要性.md)
 
-第二十章： [不要把鸡蛋放在一个篮子里-谈谈最大熵模型](./ML Books/NLP/The Art of Mathematics/不要把鸡蛋放在一个篮子里-谈谈最大熵模型.md)
+第二十章： [不要把鸡蛋放在一个篮子里-谈谈最大熵模型](./ML Books/NLP/The Art of Mathematics/不要把鸡蛋放在一个篮子里--谈谈最大熵模型.md)
