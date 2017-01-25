@@ -15,3 +15,4 @@
 ### 用python进行自然语言处理(NLP With Python)
 ### 语音语言处理(Speech and Language Processing)
 ### 统计自然语言基础(Fundations of Statistical NLP)
+### 数学之美(The Art of Mathematics)
