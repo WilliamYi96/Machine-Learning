@@ -33,6 +33,8 @@
 
 第五章： [隐马尔科夫模型](./ML Books/NLP/The Art of Mathematics/隐马尔科夫模型.md)
 
+第六章： [信息的度量和作用](./ML Books/NLP/The Art of Mathematics/信息的度量和作用.md)
+
 第十五章： [矩阵运算和文本处理中的两个分类问题](./ML Books/NLP/The Art of Mathematics/矩阵运算和文本处理中的两个分类问题.md)
 
 第十六章： [信息指纹及其应用](./ML Books/NLP/The Art of Mathematics/信息指纹及其应用.md)
