@@ -26,7 +26,7 @@
 ### 数学之美(The Art of Mathematics)
 此次《数学之美》的总结忽略了信息论以及搜索引擎的大部分内容，而主要关注于文中提到的自然语言处理方面的相关内容。
 
-**《数学之美》阅读笔记** [1](./ML Books/NLP/The Art of Mathematics/数学之美阅读笔记(1).pdf) [2](./ML Books/NLP/The Art of Mathematics/数学之美阅读笔记(1).pdf)
+**《数学之美》阅读笔记** [1](./ML Books/NLP/The Art of Mathematics/《数学之美》阅读笔记(1).pdf) [2](./ML Books/NLP/The Art of Mathematics/《数学之美》阅读笔记(1).pdf)
 
 
 第二章： [自然语言处理-从规则到统计](./ML Books/NLP/The Art of Mathematics/自然语言处理-从规则到统计.md)
