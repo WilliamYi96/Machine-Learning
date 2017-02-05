@@ -12,5 +12,5 @@
 
 |               | Scene Graph Generation by Iterative Message Passing |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
+| 作者信息  | 李飞飞 Li Fei-Fei  |
 | Content Cell  | Content Cell  |
