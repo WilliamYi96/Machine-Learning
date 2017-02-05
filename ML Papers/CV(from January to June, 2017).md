@@ -10,7 +10,7 @@
 
 
 
-|               | Second Header |
+|               | Scene Graph Generation by Iterative Message Passing |
 | ------------- | ------------- |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
