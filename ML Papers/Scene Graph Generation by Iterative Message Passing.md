@@ -7,7 +7,7 @@
 | 发表情况 | 2017年1月10日于arxiv           |
 | 被引次数 | 0 until 20170205              |
 | 阅读时间 | 2017年2月4日--6日              |
-| 论文领域 | Scene Graph Generation        |
+| 论文领域 | Scene Graph Generation, CV    |
 | 参考资料 | http://www.jiqizhixin.com/article/index/id/2191 |
 ## 主要创新
 在理解视觉场景时，不再像之前只是理解单独的物体，而是将物体之间的关系(提供了丰富的关于这个场景的语义信息(semantic information).)进行重点考虑。
