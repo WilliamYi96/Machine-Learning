@@ -3,4 +3,4 @@
 | ------- | ---------------------------------- |
 | 授课单位 | Stanford University |
 | 授课者   | Sergey Levine, John Schulman, Chelsea Finn |   
-
+| 章节名称 | Introduction to Deep Reinforcement Learning |
