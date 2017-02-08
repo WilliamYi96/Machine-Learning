@@ -4,14 +4,14 @@
 [Scene Graph Generation by Iterative Message Passing](./ML Papers/Scene Graph Generation by Iterative Message Passing.md)
 # 机器学习理论
 ## 经典算法
-线性回归模型\
-逻辑斯蒂回归模型\
-[K近邻法](./ML Theories/K近邻法.md)\
-[决策树](./ML Theories/决策树.md)\
-最大熵模型\
-支持向量机\
-BP算法\
-协同过滤算法\
+线性回归模型    
+逻辑斯蒂回归模型    
+[K近邻法](./ML Theories/K近邻法.md)    
+[决策树](./ML Theories/决策树.md)    
+最大熵模型    
+支持向量机    
+BP算法    
+协同过滤算法    
 ### 
 # 经典书籍
 ## 机器学习(Statistical Learning)
