@@ -41,11 +41,11 @@
 3. 动态模型： 预测接下来的状态并接收回报
 
 ## 强化学习和其他机器学习问题的联系
-### Supervised Learning
+
 ![](./img/Supervised Learning in DRL.png)
-### Contextual bandits
+
 ![](./img/Contextual bandits in DRL.png)
-### Reinforcement learning
+
 ![](./img/Reinforcement learning in DRL.png)
 
 ## 强化学习和监督学习的差异
