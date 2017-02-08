@@ -44,7 +44,7 @@
 ### Supervised Learning
 ![](./img/Supervised Learning in DRL.png)
 ### Contextual bandits
-![](./Contextual bandits in DRL.png)
+![](./img/Contextual bandits in DRL.png)
 ### Reinforcement learning
 ![](./img/Reinforcement learning in DRL.png)
 
