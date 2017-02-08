@@ -43,5 +43,5 @@ BP算法
 
 ## 深度强化学习(Deep Reinforcement Learning)
 ### 斯坦福DRL, Spring, 2017
-第一章: [深度强化学习简介](./ML Class/DRL/Stanford DRL/DRL简介.md)
+第一章: [深度强化学习简介](./ML Class/Stanford DRL/DRL简介.md)
  
