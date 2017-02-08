@@ -32,3 +32,27 @@
 **观察**: 待翻译语言中的单词  
 **行为**: 产生目标语言的单词  
 **回报**: 准确度(BLEU score)  
+
+## 什么是深度强化学习
+强化学习突出点在于有一个环境反馈机制，而深度学习的核心便是神经网络的使用，因此，深度强化学习的意义便是使用神经网络去优化目标函数的强化学习。
+### 特征
+1. 策略: 选择下一个动作
+2. 值函数: 衡量状态的goodness 或者是state-action 对
+3. 动态模型： 预测接下来的状态并接收回报
+
+## 强化学习和其他机器学习问题的联系
+### Supervised Learning
+![](./img/Supervised Learning in DRL.png)
+### Contextual bandits
+![](./Contextual bandits in DRL.png)
+### Reinforcement learning
+![](./img/Reinforcement learning in DRL.png)
+
+## 强化学习和监督学习的差异
+强化学习具有以下特点：
+
+1. 你无法完全地得知学习过程中需要优化的函数，你只能通过与它交互来进行优化；
+2. 交互式需要考虑之前情况，输入的xt依赖于你之前的动作。
+
+## 近期深度强化学习的成功范例
+ATARI和AlphaGo都是其成功的范例，详情参见http://rll.berkeley.edu/deeprlcourse/docs/lec0.pdf
