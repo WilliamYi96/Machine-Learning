@@ -13,8 +13,8 @@
 BP算法    
 协同过滤算法    
 ### 
-# 经典书籍
-## 机器学习(Statistical Learning)
+# 经典书籍及教程
+## (统计)机器学习(Statistical Learning)
 ### 统计学习方法(李航)
 第一章： [统计学习方法概论](./ML Books/Statistical Learning/统计学习方法概论.pdf)  
 第三章： [K近邻法](./ML Books/Statistical Learning/K近邻法.pdf)  
@@ -39,4 +39,9 @@ BP算法
 第十七章： [谈谈密码学的数学原理](./ML Books/NLP/The Art of Mathematics/谈谈密码学的数学原理.md)  
 第十九章： [谈谈数学模型的重要性](./ML Books/NLP/The Art of Mathematics/数学模型的重要性.md)  
 第二十章： [不要把鸡蛋放在一个篮子里-谈谈最大熵模型](./ML Books/NLP/The Art of Mathematics/不要把鸡蛋放在一个篮子里--谈谈最大熵模型.md)  
+
+
+## 深度强化学习(Deep Reinforcement Learning)
+### 斯坦福DRL, Spring, 2017
+第一章: [深度强化学习简介](./ML Class/DRL/Stanford DRL/DRL简介.md)
  
