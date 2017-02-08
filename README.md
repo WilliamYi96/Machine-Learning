@@ -1,7 +1,7 @@
 # 机器学习论文
 ## 机器学习理论
 ## 机器视觉
-[Scene Graph Generation by Iterative Message Passing](./ML Papers/Scene Graph Generation by Iterative Message Passing.md)
+通过迭代式信息传递的场景图生成[Scene Graph Generation by Iterative Message Passing](./ML Papers/Scene Graph Generation by Iterative Message Passing.md)
 # 机器学习理论
 ## 经典算法
 线性回归模型    
