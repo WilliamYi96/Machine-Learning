@@ -44,7 +44,9 @@ BP算法
 ## 深度强化学习(Deep Reinforcement Learning)
 ### 斯坦福DRL, Spring, 2017
 第一章: [深度强化学习简介(Introduction to Deep Reinforcement Learning)](./ML Class/Stanford DRL/DRL简介.md)    
-第二章: [监督学习与决策制定(Supervised learning and decision making)](./ML Class/Stanford DRL/监督学习与决策制定.md)     
+第二章: [监督学习与决策制定(Supervised learning and decision making)](./ML Class/Stanford DRL/监督学习与决策制定.md)   
+
+
 第三章: [最佳控制与计划(Optimal control and planning)](./ML Class/Stanford DRL/最佳控制与计划.md)                     
 第四章: [复习:autodiff, backpropagation, optimization](./ML Class/Stanford DRL/复习:autodiff, backpropagation, optimization.md)      
 第五章: [从数据中学习动态系统模型(Learning dynamical system models from data)](./ML Class/Stanford DRL/从数据中学习动态系统模型.md)    
