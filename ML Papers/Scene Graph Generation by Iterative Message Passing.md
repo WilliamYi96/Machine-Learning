@@ -24,3 +24,4 @@
 
 ![模型架构图示](./img/模型架构图示.png)
 
+该模型的架构图示。该模型首先会从object Proposal 集合中提取出结点和边的视觉特征，然后边GRU和结点GRU将这些视觉特征作为初始输入并得到一个隐藏状态的集合(a)。 然后一个结点信息池化函数(node message pooling function)在下一次迭代中计算从隐藏状态传递到节点GRU的信息。类似地，一个边信息池化函数(edge message pooling function)也会计算传递到边GRU的信息和推送(b)。 + 符号表示学习到的加权和。该模型可以迭代地更新GRU的隐藏状态(c)。在最后一个迭代步骤，该GRU 的隐藏状态可以被用于预测目标类别，bounding box offsets 和关系类别(d)。
