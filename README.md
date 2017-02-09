@@ -1,7 +1,7 @@
 # 机器学习论文
 ## 机器学习理论
 ## 机器视觉
-通过迭代式信息传递的场景图生成[Scene Graph Generation by Iterative Message Passing](./ML Papers/Scene Graph Generation by Iterative Message Passing.md)    
+通过迭代式信息传递的场景图生成[Scene Graph Generation by Iterative Message Passing](./ML Papers/Scene Graph Generation by Iterative Message Passing.md)         
 一种机器学习方法于移动机器人在森林小径视觉感知的运用[A Machine Learning Approach to Visual Perception of Forest Trails for Mobile Robots](./ML Papers/A Machine Learning Approach to Visual Perception of Forest Trails for Mobile Robots.md)
 # 机器学习理论
 ## 经典算法
