@@ -1,5 +1,10 @@
 # 机器学习论文
 ## 机器学习理论
+## 生成对抗网络(GAN--Generative Adversarial Nets)
+GAN   [Generative Adversarial Nets](./ML Papers/Generative Adversarial Nets.md)    
+InfoGAN   [InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets](./ML Papers/InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets.md)    
+Energy-based GAN   [Energy-based Generative Adversarial Network](./ML Papers/Energy-based Generative Adversarial Network.md)     
+Wasserstein GAN    [Wasserstein GAN](./ML Papers/Wasserstein GAN.md)   
 ## 机器视觉
 通过迭代式信息传递的场景图生成  [Scene Graph Generation by Iterative Message Passing](./ML Papers/Scene Graph Generation by Iterative Message Passing.md)         
 一种机器学习方法于移动机器人在森林小径视觉感知的运用  [A Machine Learning Approach to Visual Perception of Forest Trails for Mobile Robots](./ML Papers/A Machine Learning Approach to Visual Perception of Forest Trails for Mobile Robots.md)        
