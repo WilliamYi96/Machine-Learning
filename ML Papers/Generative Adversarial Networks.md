@@ -1,7 +1,7 @@
 #  Generative Adversarial Networks
 |               | Generative Adversarial Networks |
 | ------------- | -------------            |
-| 作者信息 |  Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio  |
+| 作者信息 |  Ian J. Goodfellow, ..., Yoshua Bengio  |
 | 发表情况 | Submitted on 10 Jun 2014 on arXiv      |
 | 被引次数 | 418 until 20170210             |
 | 阅读时间 | 2017年2月10日              |
