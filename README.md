@@ -13,15 +13,15 @@
 |基于单目反应微型飞行器控制的可转换策略的学习  [Learning Transferable Policies for Monocular Reactive MAV Control](./ML Papers/Learning Transferable Policies for Monocular Reactive MAV Control.md)  |
 # 机器学习理论
 ## 经典算法
-线性回归模型    
-逻辑斯蒂回归模型    
+线性回归模型       
+逻辑斯蒂回归模型      
 [K近邻法](./ML Theories/K近邻法.md)    
 [决策树](./ML Theories/决策树.md)    
 最大熵模型    
 支持向量机    
 BP算法    
 协同过滤算法    
-### 
+
 # 经典书籍及教程
 ## (统计)机器学习(Statistical Learning)
 ### 统计学习方法(李航)
