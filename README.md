@@ -55,8 +55,11 @@ BP算法
 第一章: [深度强化学习简介(Introduction to Deep Reinforcement Learning)](./ML_Class/Stanford_DRL/DRL简介.md)    
 第二章: [监督学习与决策制定(Supervised learning and decision making)](./ML_Class/Stanford_DRL/监督学习与决策制定.md)   
 
-
 第三章: [最佳控制与计划(Optimal control and planning)](./ML_Class/Stanford_DRL/最佳控制与计划.md)                     
 第四章: [Review of autodiff, backpropagation, optimization](./ML_Class/Stanford_DRL/autodiff_backpropagation_and_optimization.md)      
 第五章: [从数据中学习动态系统模型(Learning dynamical system models from data)](./ML_Class/Stanford_DRL/从数据中学习动态系统模型.md)    
 第六章: [通过模仿最优控制器学习策略(learning policies by imitating optimal controllers)](./ML_Class/Stanford_DRL/通过模仿最优控制器学习策略.md)                    
+
+
+
+未完待续
