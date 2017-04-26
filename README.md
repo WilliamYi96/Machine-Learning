@@ -1,7 +1,7 @@
 # 机器学习论文        
 ## 机器学习理论   
 ## 生成对抗网络(GAN--Generative Adversarial Nets)
-| [GAN](./ML_Papers/Generative_Adversarial_Nets.md) | Generative Adversarial Nets              |
+| [GAN](./ML_Papers/Generative_Adversarial_Networks.md.md) | Generative Adversarial Nets              |
 | :--------------------------------------: | :--------------------------------------- |
 | [InfoGAN](./ML_Papers/InfoGAN_Interpretable_Representation_Learning_by_Information_Maximizing_GAN.md) | InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets |
 | [Energy-based GAN](./ML_Papers/Energy-based_Generative_Adversarial_Network.md) | Energy-based Generative Adversarial Network |
