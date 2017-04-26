@@ -3,7 +3,7 @@
 ## 生成对抗网络(GAN--Generative Adversarial Nets)
 | [GAN](./ML_Papers/Generative_Adversarial_Nets.md) | Generative Adversarial Nets              |
 | :--------------------------------------: | :--------------------------------------- |
-| [InfoGAN](./ML_Papers/InfoGAN_Interpretable_Representation_Learning_by_Information_Maximizing_Generative_Adversarial Nets.md) | InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets |
+| [InfoGAN](./ML_Papers) | InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets |
 | [Energy-based GAN](./ML_Papers/Energy-based_Generative_Adversarial_Network.md) | Energy-based Generative Adversarial Network |
 | [Wasserstein GAN](./ML_Papers/Wasserstein_GAN.md) | Wasserstein GAN                          |
 ## 机器视觉
@@ -57,6 +57,6 @@ BP算法
 
 
 第三章: [最佳控制与计划(Optimal control and planning)](./ML_Class/Stanford_DRL/最佳控制与计划.md)                     
-第四章: [复习:autodiff, backpropagation, optimization](./ML_Class/Stanford_DRL/autodiff_backpropagation, optimization.md)      
+第四章: [Review of autodiff, backpropagation, optimization](./ML_Class/Stanford_DRL/autodiff_backpropagation_and_optimization.md)      
 第五章: [从数据中学习动态系统模型(Learning dynamical system models from data)](./ML_Class/Stanford_DRL/从数据中学习动态系统模型.md)    
 第六章: [通过模仿最优控制器学习策略(learning policies by imitating optimal controllers)](./ML_Class/Stanford_DRL/通过模仿最优控制器学习策略.md)    
