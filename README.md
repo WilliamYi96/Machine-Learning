@@ -3,7 +3,7 @@
 ## 生成对抗网络(GAN--Generative Adversarial Nets)
 | [GAN](./ML_Papers/Generative_Adversarial_Nets.md) | Generative Adversarial Nets              |
 | :--------------------------------------: | :--------------------------------------- |
-| [InfoGAN](./ML_Papers/InfoGAN:_Interpretable_Representation_Learning_by_Information_Maximizing_Generative_Adversarial Nets.md) | InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets |
+| [InfoGAN](./ML_Papers/InfoGAN_Interpretable_Representation_Learning_by_Information_Maximizing_Generative_Adversarial Nets.md) | InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets |
 | [Energy-based GAN](./ML_Papers/Energy-based_Generative_Adversarial_Network.md) | Energy-based Generative Adversarial Network |
 | [Wasserstein GAN](./ML_Papers/Wasserstein_GAN.md) | Wasserstein GAN                          |
 ## 机器视觉
