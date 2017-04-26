@@ -1,16 +1,16 @@
 # 机器学习论文        
 ## 机器学习理论   
 ## 生成对抗网络(GAN--Generative Adversarial Nets)
-|[GAN](./ML Papers/Generative Adversarial Nets.md) |  Generative Adversarial Nets  |
-| :------------: | :----------------- |
-|[InfoGAN](./ML Papers/InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets.md) |  InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets   |
-|[Energy-based GAN](./ML Papers/Energy-based Generative Adversarial Network.md) |  Energy-based Generative Adversarial Network  |
-|[Wasserstein GAN](./ML Papers/Wasserstein GAN.md)  |  Wasserstein GAN   |
+| [GAN](./ML Papers/Generative Adversarial Nets.md) | Generative Adversarial Nets              |
+| :--------------------------------------: | :--------------------------------------- |
+| [InfoGAN](./ML Papers/InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets.md) | InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets |
+| [Energy-based GAN](./ML Papers/Energy-based Generative Adversarial Network.md) | Energy-based Generative Adversarial Network |
+| [Wasserstein GAN](./ML Papers/Wasserstein GAN.md) | Wasserstein GAN                          |
 ## 机器视觉
-|通过迭代式信息传递的场景图生成  [Scene Graph Generation by Iterative Message Passing](./ML Papers/Scene Graph Generation by Iterative Message Passing.md)  |
-| :------------------- |
-|一种机器学习方法于移动机器人在森林小径视觉感知的运用  [A Machine Learning Approach to Visual Perception of Forest Trails for Mobile Robots](./ML Papers/A Machine Learning Approach to Visual Perception of Forest Trails for Mobile Robots.md)        |
-|基于单目反应微型飞行器控制的可转换策略的学习  [Learning Transferable Policies for Monocular Reactive MAV Control](./ML Papers/Learning Transferable Policies for Monocular Reactive MAV Control.md)  |
+| 通过迭代式信息传递的场景图生成  [Scene Graph Generation by Iterative Message Passing](./ML Papers/Scene Graph Generation by Iterative Message Passing.md) |
+| :--------------------------------------- |
+| 一种机器学习方法于移动机器人在森林小径视觉感知的运用  [A Machine Learning Approach to Visual Perception of Forest Trails for Mobile Robots](./ML Papers/A Machine Learning Approach to Visual Perception of Forest Trails for Mobile Robots.md) |
+| 基于单目反应微型飞行器控制的可转换策略的学习  [Learning Transferable Policies for Monocular Reactive MAV Control](./ML Papers/Learning Transferable Policies for Monocular Reactive MAV Control.md) |
 # 机器学习理论
 ## 经典算法
 线性回归模型       
@@ -62,4 +62,5 @@ BP算法
 第六章: [通过模仿最优控制器学习策略(learning policies by imitating optimal controllers)](./ML Class/Stanford DRL/通过模仿最优控制器学习策略.md)    
 
 
- 
+
+​     
