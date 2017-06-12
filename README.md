@@ -1,5 +1,5 @@
 # 机器学习论文                                
-## 机器学习理论               
+## 机器学习理论                    
 ## 生成对抗网络(GAN--Generative Adversarial Nets)
 | [GAN](./ML_Papers/Generative_Adversarial_Networks.md.md) | Generative Adversarial Nets              |
 | :--------------------------------------: | :--------------------------------------- |
