@@ -19,7 +19,7 @@ def addTwoNumbers(l1, l2):
         if l2 is not None:
             sum_ += l2.val
             l2 = l2.next
-        p.next = ListNode(sum_ % 10)
+        p.next = ListNode(sum_ % 10)  
         p = p.next
         carry = sum_ // 10
     return dummy.next
