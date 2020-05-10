@@ -1,0 +1,101 @@
+\documentclass{article}
+
+
+\usepackage{arxiv}
+
+\usepackage[utf8]{inputenc} % allow utf-8 input
+\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
+\usepackage{hyperref}       % hyperlinks
+\usepackage{url}            % simple URL typesetting
+\usepackage{booktabs}       % professional-quality tables
+\usepackage{amsfonts}       % blackboard math symbols
+\usepackage{nicefrac}       % compact symbols for 1/2, etc.
+\usepackage{microtype}      % microtypography
+\usepackage{lipsum}
+
+\usepackage{hyperref}
+
+\usepackage{amsmath}
+
+\usepackage{graphicx}
+
+\usepackage[justification=centering]{caption}
+\usepackage{subcaption}
+
+\usepackage{listings}
+\usepackage{xcolor}
+\lstset{
+    numbers=left, 
+    numberstyle= \tiny, 
+    keywordstyle= \color{ blue!70},
+    commentstyle= \color{red!50!green!50!blue!50}, 
+    frame=shadowbox,
+    rulesepcolor= \color{ red!20!green!20!blue!20} ,
+    escapeinside=``, 
+    xleftmargin=2em,xrightmargin=2em, aboveskip=1em,
+    framexleftmargin=2em
+} 
+
+\title{Deep Learning Specialization\thanks{This is the specialization at Coursera taught by Professor Andrew Ng.}}
+
+
+\author{
+    Kai Yi\thanks{The author received his B.Eng with honor from Department of Software Engineering, Xi'an Jiaotong University in June 2019. His current research interests include cognition-based artificial intelligence, machine learning, computer vision and conputational psychology. His homepage is kaiyi.me. Now, he is planning to pursue PhD studies.}\\
+%   Department of Computer Science\\
+%   Cranberry-Lemon University\\
+%   Pittsburgh, PA 15213 \\
+  \texttt{williamyi96@gmail.com} \\
+
+}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+% \lipsum[1]
+
+% \lipsum[2]
+
+% \lipsum[3]
+
+% \lipsum[4]
+This paper is the notes of Deep Learning Specialization at Coursera taught by Prof. Andrew Ng. There are five courses in this specialization. They are \textit{Neural Network and Deep Learning (NN Overview)}. \textit{Improving Deep Neural Networks : Hyperparameter tuning, Regularization and Optimization (Optimization)}, \textit{Structuring Machine Learning Projects (NN-Projects)}, \textit{Convolutional Neural Networks (CNNs)} and \textit{Sequence Model (SNNs)}, respectively. 
+
+Course \textit{NN Overview} mainly talks about the foundations of deep learning. It includes the major technology trends driving deep learning, the  building, training and applying of fully connected deep neural network, the vectorization technology improving network efficiency and the key parameters in a neural network's architecture. Course \textit{Optimization} represents the key rules to improve neural networks' performance. It includes the industry best-practices for building deep learning applications, and a variety of tricks about hyperparameter tuning, regularization and optimization. More information about the rest three courses will conclude here later.
+
+\end{abstract}  
+
+\newpage
+\tableofcontents
+\newpage
+\listoffigures
+\newpage
+\listoftables
+\newpage
+
+% keywords can be removed
+% \keywords{First keyword \and Second keyword \and More}
+
+
+% \input{update.tex}
+% \input{introduction.tex}  
+% \input{data-preprocessing}
+\input{Course1.tex}
+\input{Course2.tex}
+\input{Course3.tex}
+\input{Course4.tex}
+\input{Course5.tex}
+% \input{experiments.tex}
+
+% \input{cnn-encoder.tex}
+
+\section*{Acknowledgements}
+This note is heavily based on Prof. Andrew Ng's course at Coursera. Thanks Andrew for taking this wonderful course, I've learnt a lot from that. Besides, thanks Coursera for providing me full-funded financial aids to finish all the five courses in the specialization. Moreover, parts of the note are borrowed from Mahmoud Badry's github repository\footnote{https://github.com/mbadry1/DeepLearning.ai-Summary}. It gives me a clear panorama of what is the most important.
+
+\bibliographystyle{unsrt}  
+\bibliography{references}  %%% Remove comment to use the external .bib file (using bibtex).
+%%% and comment out the ``thebibliography'' section.
+
+% \input{appendix.tex}
+
+\end{document}

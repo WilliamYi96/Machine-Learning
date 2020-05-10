@@ -1,0 +1,11 @@
+img_per_class = 400
+for i in range(0, images_train.shape[0], img_per_class):
+    mean = images_train[i:i + img_per_class].mean(
+                        axis=(0, 1, 2), keepdims=True)
+    std = images_train[i:i + img_per_class].std(
+                        axis=(0, 1, 2), keepdims=True)
+    assert mean.shape==(1,1,1,d) and std.shape==(1,1,1,d)
+    images_train[i:i + img_per_class] = (
+            images_train[i:i + img_per_class] - mean) / std
+    images_test[i:i + img_per_class] = (
+            images_test[i:i + img_per_class] - mean) / std

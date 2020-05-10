@@ -1,0 +1,183 @@
+\documentclass[10pt,twocolumn,letterpaper]{article}
+
+\renewcommand{\contentsname}{目录}
+\renewcommand{\abstractname}{摘要}
+\renewcommand{\refname}{参考文献}
+\renewcommand{\figurename}{图}
+\renewcommand{\tablename}{表}
+\renewcommand{\appendixname}{附录}
+\renewcommand{\listfigurename}{图}
+\renewcommand{\listtablename}{表}
+% \renewcommand{\lstlistlistingname}{列表目录}
+% \renewcommand{\listname}{列表}
+
+\usepackage{cvpr}
+\usepackage{times}
+\usepackage{epsfig}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}  
+\usepackage{amsthm}  
+% \usepackage{multicolumn}
+\usepackage{multirow}
+  
+\usepackage{algorithm}  
+\usepackage{algorithmic}  
+
+\usepackage{listings}  
+
+% \lstset{ %
+% language=python,                % the language of the code
+% basicstyle=\footnotesize,           % the size of the fonts that are used for the code
+% numbers=left,                   % where to put the line-numbers
+% numberstyle=\tiny\color{gray},  % the style that is used for the line-numbers
+% stepnumber=2,                   % the step between two line-numbers. If it's 1, each line 
+%                                 % will be numbered
+% numbersep=5pt,                  % how far the line-numbers are from the code
+% backgroundcolor=\color{white},      % choose the background color. You must add \usepackage{color}
+% showspaces=false,               % show spaces adding particular underscores
+% showstringspaces=false,         % underline spaces within strings
+% showtabs=false,                 % show tabs within strings adding particular underscores
+% frame=single,                   % adds a frame around the code
+% rulecolor=\color{black},        % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. commens (green here))
+% tabsize=2,                      % sets default tabsize to 2 spaces
+% captionpos=b,                   % sets the caption-position to bottom
+% breaklines=true,                % sets automatic line breaking
+% breakatwhitespace=false,        % sets if automatic breaks should only happen at whitespace
+% title=\lstname,                 % show the filename of files included with \lstinputlisting;
+%                                 % also try caption instead of title
+% keywordstyle=\color{blue},          % keyword style
+% commentstyle=\color{dkgreen},       % comment style
+% stringstyle=\color{mauve},         % string literal style
+% escapeinside={\%*}{*)},            % if you want to add LaTeX within your code
+% morekeywords={*,...}               % if you want to add more keywords to the set
+
+% Include other packages here, before hyperref.
+
+% If you comment hyperref and then uncomment it, you should delete
+% egpaper.aux before re-running latex.  (Or just hit 'q' on the first latex
+% run, let it finish, and you should be clear).
+\usepackage[breaklinks=true,bookmarks=false]{hyperref}
+
+\usepackage[utf8]{inputenc} % allow utf-8 input
+\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
+\usepackage{hyperref}       % hyperlinks
+\usepackage{url}            % simple URL typesetting
+\usepackage{booktabs}       % professional-quality tables
+\usepackage{amsfonts}       % blackboard math symbols
+\usepackage{nicefrac}       % compact symbols for 1/2, etc.
+\usepackage{microtype}      % microtypography
+
+\usepackage{url}  
+\usepackage{caption}
+% \usepackage{subfigure*}
+% \usepackage{paisubfigure*}
+\usepackage{graphicx}
+\usepackage{booktabs}
+% \usepackage{amsmath}
+
+\makeatletter
+\let\@afterindentfalse\@afterindenttrue
+\@afterindenttrue
+\makeatother
+\setlength{\parindent}{2em}
+
+\usepackage{amsmath,amssymb}
+\DeclareMathOperator{\E}{\mathbb{E}}  
+
+\renewcommand{\baselinestretch}{1.2}
+\usepackage{xeCJK}
+\usepackage{fontspec} 
+\setCJKmainfont{SimSun} %或\setCJKmainfont{KaiTi}
+\setCJKmonofont{SimSun}
+\setmainfont{Times New Roman}
+
+\cvprfinalcopy % *** Uncomment this line for the final submission
+
+% \def\cvprPaperID{****} % *** Enter the CVPR Paper ID here
+% \def\httilde{\mbox{\tt\raisebox{-.5ex}{\symbol{126}}}}
+
+% Pages are numbered in submission mode, and unnumbered in camera-ready
+%\ifcvprfinal\pagestyle{empty}\fi
+% \setcounter{page}{1}
+\begin{document}
+% \newtheorom{algorithm}{算法}
+\title{多人博弈``十点半”游戏的若干问题分析}
+
+\author{易凯\thanks{The author received his B.Eng with honor from Department of Software Engineering, Xi'an Jiaotong University in June 2019. His current research interests include cognition-based artificial intelligence, machine learning, computer vision and conputational psychology. His homepage is kaiyi.me. Now, he is planning to pursue PhD studies and internships.}
+% Institution1 address\\
+% {\tt\small {yikai2015, yushuanghe1997, sherlockholmes, qyl916}@stu.xjtu.edu.cn}
+% For a paper whose authors are all at the same institution,
+% omit the following lines up until the closing ``}''.
+% Additional authors and addresses can be added with ``\and'',
+% just like the second author.
+% To save space, use either the email address or home page, not both
+}
+% \providecommand{\keywords}[1]{\textbf{\textit{Index terms---}} #1}
+% \providecommand{\keywords}[1]{\textbf{\textit{关键词---}} #1}
+
+\maketitle
+
+\section{游戏简介}
+``十点半“游戏是多人博弈游戏，其由1个庄家和N个闲家构成。基本的游戏规则以及流程如下：
+
+\begin{algorithm}[!htp]
+\caption{``十点半"游戏规则}
+\label{alg:A}
+\begin{algorithmic}
+\STATE \textbf{步骤一}：庄家和N个闲家依次发一张牌（默认每次游戏结束重新洗牌）。所有数字牌记为实际点数，花牌记为半点（包括大小王）。
+\STATE \textbf{步骤二}：庄家决定轮。庄家可以自由选择补牌（持牌数上限为五张），庄家若总点数为十点半，则庄家赢。若总牌数为五张，若总点数小于等于十点半，则庄家赢（若等于十点半则闲家输双倍底金）；若总点数大于十点半，则闲家赢，获得资本与底金同等数额。上述所有情况游戏结束。
+\STATE \textbf{步骤三}：闲家$i\in [1, N]$ 补牌，若闲家 $i$ 点数超过十点半，则闲家$i$输；若闲家 $i$ 点数等于十点半或者持牌数等于五且总点数小于等于十点半，则闲家 $i$ 赢，且庄家需付给 $i$ 底金的两倍（若持牌数等于五且总点数等于十点半，则庄家需付给 $i$ 底金的四倍）。
+\STATE \textbf{步骤四}：重复步骤三，直到所有闲家完成补牌。庄家与所有剩余闲家比点数，若庄家点数小于闲家$i$，则闲家$i$胜，否则，庄家胜。胜负额度均与闲家 $i$ 底金相同。游戏结束。
+\end{algorithmic}
+\end{algorithm}
+
+\section{双人博弈基本分析}
+双人博弈指的是一庄一闲的基本情况，主要分析两点，庄家和闲家获得五张牌十点半的概率以及庄闲的数学期望。
+\subsection{双人博弈庄闲五张牌十点半的概率分析}
+由于相关问题的概率分析较为复杂，因此通过数学模拟的手段进行分析。
+
+经过50，000次迭代，庄家五张牌十点半的概率为0.012308, 闲家五张牌十点半的概率为0.010168。
+\subsection{双人博弈庄闲获胜期望分析}
+此处做出两个假设：
+
+\begin{itemize}
+   \item 庄家补牌或停牌决策点为7，任一闲家决策点为7.5；
+   \item 每次结束一局均重新洗牌
+\end{itemize}
+
+通过演算，庄家的胜率为0.6451，远大于0.5。此外，庄家的数学期望为 0.2074，闲家的数学期望为 -0.2074. 
+
+\section{多人博弈庄闲获胜期望分析}
+多人博弈庄闲获胜期望分析如 表 \ref{lab:1}，其中每组数据均经过了50,000 次数学模拟，使用 Python3 实现。
+
+\begin{table}
+   \centering
+   \caption{多人博弈庄闲获胜期望分析（仅保留四位小数, N表示闲家数）}
+   \label{lab:1}
+   \small
+   \begin{tabular}{c|c|c|c|c|c|c}
+      \hline
+      N & Dealer & Player 1 & Player 2 & Player 3 & Player 4 & Player 5\\
+      \hline
+      1 & 0.2074 & -0.2074 & - & - & - & - \\
+      2 & 0.5028 & -0.2510 & -0.2517& - & - & - \\
+      3 & 0.8374 & -0.2803 & -0.2765 & -0.2806& - & - \\
+      4 & 1.1851 & -0.2842 & -0.3016 & -0.2997 & -0.2996& - \\
+      5 & 1.5206 & -0.2959 & -0.3031 & -0.3024 & -0.3047 & -0.3146\\
+      \hline
+   \end{tabular}
+\end{table}
+
+\section{结论}
+\begin{itemize}
+   \item 通过表 \ref{lab:1} 不同闲家数时各个闲家的数学期望基本相同来看，闲家获胜的数学期望与发排顺序无关；
+   \item 通过表 \ref{lab:1} 庄闲数学期望的对比来看，庄家的数学期望始终为正，闲家的数学期望始终为负，且闲家数量越多，庄家的数学期望越高。
+\end{itemize}
+
+% {\small    
+% \bibliographystyle{unsrt}
+% \bibliography{egbib}
+% }
+
+\end{document}

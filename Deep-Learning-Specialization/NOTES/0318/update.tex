@@ -1,0 +1,34 @@
+\section{Updates}
+\subsubsection*{March 1st to March 7th, 2020}
+
+Finished Items:
+
+\begin{itemize}
+    \item Data Preprocessing (Data Visualization and Numpy Data Generation for Network Training).
+    \item Experimented on single proteins of No. 31, 33, 35, 43, 72 and 73 with ZD10. Got the ELBO, Error and KL of every protein and visualized them at Appendix \ref{append1}.
+    \item Visualized the reconstruct results and removing transforms results of every single protein (Appendix \ref{append2}).
+    \item Experimented on multiple proteins (No. 31-33, No. 35-43, No. 72-73, No. 31-33-35-43-72-73) with ZD10. Got the ELBO, Error and KL of different combinations and visualized them at Appendix \ref{append4}
+    \item Filled in the table of ELBO, Error and KL of reconstruction and removing transformations with ZD10 of multiple proteins (Table. \ref{construction-error1}, \ref{construction-error1}) and plot them at Fig. \ref{mfigure2}.
+    \item Visualized the reconstruct results and removing transforms results of above-mentioned combinations (Appendix \ref{append3})
+    \item Implemented 3D U-Net as encoder (Fig. \ref{U-Net}), though not tested so far.
+\end{itemize}
+
+Issues Needed to Be Solved:
+
+\begin{itemize}
+    \item Followed the rules at section \ref{image-normalization} and found the ELBO of all proteins were becoming exponentially large.
+\end{itemize}
+
+Conclusions:
+\begin{itemize}
+    \item I've tested MLP encoder with 3 layers with ZD10 of different proteins and found there were no decrease in reconstruction loss and removing transformations loss. So maybe due to the limited input data and limited representative ability, there is no need to try on deeper MLP as encoder.
+    \item ZD10 works well with every single protein. We need more sophisticated representation of input features when feeding multiple proteins as input. Comparative experiments proves that MLP encoder works better with ZD50 than with ZD10 when dealing with multiple proteins.
+    \item At most cases, training with multiple proteins will not affect the accuracy. And the network tends to learn the combined pose distributions (\ref{append3})
+\end{itemize}
+
+Future Works:
+\begin{itemize}
+    \item Implement better designed 3D-UNet and 3D ResNet-18 with ZD50.
+    \item Seek for a better implementation of image normalization that can satisfy our needs.
+    \item Code refactoring and decoupling based on Yungeng's implementation of protein No. 72 with ZD10.
+\end{itemize}
